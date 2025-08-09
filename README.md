@@ -12,6 +12,7 @@ This application implements a RAG system that:
 - 💾 Stores embeddings in a ChromaDB vector database
 - 🔍 Retrieves relevant context based on user queries
 - ✨ Generates responses using LLMs (currently Meta Llama 3 70B) via AWS Bedrock
+- Created docker image and deployed on Dockerhub
 
 ## 🔧 Prerequisites
 
@@ -114,18 +115,4 @@ The workflow above illustrates the two main processes in the RAG application:
 1. **Data Ingestion**: PDF documents are processed, chunked, embedded, and stored in the vector database
 2. **Query Pipeline**: User queries are processed, relevant context is retrieved, and responses are generated using the LLM
 
-## 👥 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## ❤️ Made with Love
-
-Built with passion for efficient knowledge retrieval and natural language processing.
-
-If you find this project useful, please consider giving it a star ⭐
